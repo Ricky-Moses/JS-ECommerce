@@ -80,7 +80,8 @@ headerEl.querySelectorAll("nav ul li").forEach((li) => {
 function homePageFunc(user) {
   const loggedUser = homePage.querySelector("#loggedUserName");
   if (user) {
-    loggedUser.textContent = (user.name).charAt(0).toUpperCase() + (user.name).slice(1);
+    loggedUser.textContent =
+      user.name.charAt(0).toUpperCase() + user.name.slice(1);
   }
 }
 
@@ -427,6 +428,38 @@ function loginFunc(user) {
     }
   }
 }
+
+// Show Login page
+const loginBtn = registerPage.querySelector("#toLogin");
+loginBtn.addEventListener("click", () => {
+  // console.info(loginBtn);
+  // Register page
+  if (registerPage.classList.contains("flex")) {
+    registerPage.classList.remove("flex");
+    registerPage.classList.add("hidden");
+  }
+  // Login page
+  if (loginPage.classList.contains("hidden")) {
+    loginPage.classList.remove("hidden");
+    loginPage.classList.add("flex");
+  }
+});
+
+// Show Register page
+const registerBtn = loginPage.querySelector("#toRegister");
+registerBtn.addEventListener("click", () => {
+  // console.info(registerBtn);
+  // Login page
+  if (loginPage.classList.contains("flex")) {
+    loginPage.classList.remove("flex");
+    loginPage.classList.add("hidden");
+  }
+  // Register page
+  if (registerPage.classList.contains("hidden")) {
+    registerPage.classList.remove("hidden");
+    registerPage.classList.add("flex");
+  }
+});
 
 // Register addEventListener 'submit'
 registerPage.addEventListener("submit", (e) => {
