@@ -1,0 +1,14 @@
+li,
+a,
+label,
+button,
+i,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

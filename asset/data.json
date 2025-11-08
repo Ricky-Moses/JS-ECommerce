@@ -1,0 +1,1112 @@
+{
+  "laptops": [
+    {
+      "id": 1,
+      "name": "Lenovo 681-Ultra",
+      "brand": "Lenovo",
+      "description": "Lenovo Lenovo 681-Ultra is a high-quality laptop designed for optimal performance. Features latest processor and ample storage.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 1111.79,
+      "discount": 1,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Lenovo_681-Ultra_image.jpg"
+        }
+      ],
+      "SKU": "SKU-LAP-001"
+    },
+    {
+      "id": 2,
+      "name": "HP 433-Standard",
+      "brand": "HP",
+      "description": "HP HP 433-Standard is a high-quality laptop designed for optimal performance. Features latest processor and ample storage.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 1944.09,
+      "discount": 0,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "HP_433-Standard_image.jpg"
+        }
+      ],
+      "SKU": "SKU-LAP-002"
+    },
+    {
+      "id": 3,
+      "name": "Asus 997-Max",
+      "brand": "Asus",
+      "description": "Asus Asus 997-Max is a high-quality laptop designed for optimal performance. Features latest processor and ample storage.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 1812.38,
+      "discount": 1,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Asus_997-Max_image.jpg"
+        }
+      ],
+      "SKU": "SKU-LAP-003"
+    },
+    {
+      "id": 4,
+      "name": "Dell 376-Elite",
+      "brand": "Dell",
+      "description": "Dell Dell 376-Elite is a high-quality laptop designed for optimal performance. Features latest processor and ample storage.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 2209.93,
+      "discount": 15,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Dell_376-Elite_image.jpg"
+        }
+      ],
+      "SKU": "SKU-LAP-004"
+    },
+    {
+      "id": 5,
+      "name": "Lenovo 831-Elite",
+      "brand": "Lenovo",
+      "description": "Lenovo Lenovo 831-Elite is a high-quality laptop designed for optimal performance. Features latest processor and ample storage.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 2708.35,
+      "discount": 1,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Lenovo_831-Elite_image.jpg"
+        }
+      ],
+      "SKU": "SKU-LAP-005"
+    },
+    {
+      "id": 6,
+      "name": "Asus 410-Max",
+      "brand": "Asus",
+      "description": "Asus Asus 410-Max is a high-quality laptop designed for optimal performance. Features latest processor and ample storage.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 2050.23,
+      "discount": 16,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Asus_410-Max_image.jpg"
+        }
+      ],
+      "SKU": "SKU-LAP-006"
+    },
+    {
+      "id": 7,
+      "name": "HP 229-Ultra",
+      "brand": "HP",
+      "description": "HP HP 229-Ultra is a high-quality laptop designed for optimal performance. Features latest processor and ample storage.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 1999.99,
+      "discount": 10,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "HP_229-Ultra_image.jpg"
+        }
+      ],
+      "SKU": "SKU-LAP-007"
+    },
+    {
+      "id": 8,
+      "name": "Dell 582-Standard",
+      "brand": "Dell",
+      "description": "Dell Dell 582-Standard is a high-quality laptop designed for optimal performance. Features latest processor and ample storage.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 1750.5,
+      "discount": 5,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Dell_582-Standard_image.jpg"
+        }
+      ],
+      "SKU": "SKU-LAP-008"
+    },
+    {
+      "id": 9,
+      "name": "Lenovo 945-Max",
+      "brand": "Lenovo",
+      "description": "Lenovo Lenovo 945-Max is a high-quality laptop designed for optimal performance. Features latest processor and ample storage.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 2300.75,
+      "discount": 12,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Lenovo_945-Max_image.jpg"
+        }
+      ],
+      "SKU": "SKU-LAP-009"
+    },
+    {
+      "id": 10,
+      "name": "Asus 123-Elite",
+      "brand": "Asus",
+      "description": "Asus Asus 123-Elite is a high-quality laptop designed for optimal performance. Features latest processor and ample storage.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 2100.0,
+      "discount": 8,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Asus_123-Elite_image.jpg"
+        }
+      ],
+      "SKU": "SKU-LAP-010"
+    }
+  ],
+  "routers": [
+    {
+      "id": 10,
+      "name": "Netgear Nighthawk X6",
+      "brand": "Netgear",
+      "description": "The Netgear Nighthawk X6 is a high-performance tri-band router designed for seamless connectivity and optimal speed.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 299.99,
+      "discount": 10,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Netgear_Nighthawk_X6_image.jpg"
+        }
+      ],
+      "SKU": "SKU-ROU-001"
+    },
+    {
+      "id": 11,
+      "name": "Asus RT-AX88U",
+      "brand": "Asus",
+      "description": "The Asus RT-AX88U is a cutting-edge Wi-Fi 6 router that delivers blazing-fast speeds and robust coverage for all your devices.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 349.99,
+      "discount": 15,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Asus_RT-AX88U_image.jpg"
+        }
+      ],
+      "SKU": "SKU-ROU-002"
+    },
+    {
+      "id": 12,
+      "name": "TP-Link Archer AX6000",
+      "brand": "TP-Link",
+      "description": "The TP-Link Archer AX6000 is a high-speed Wi-Fi 6 router that offers exceptional performance and advanced features for modern homes.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 279.99,
+      "discount": 5,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "TP-Link_Archer_AX6000_image.jpg"
+        }
+      ],
+      "SKU": "SKU-ROU-003"
+    },
+    {
+      "id": 13,
+      "name": "Linksys Velop MX10",
+      "brand": "Linksys",
+      "description": "The Linksys Velop MX10 is a mesh Wi-Fi system that provides whole-home coverage and seamless connectivity for multiple devices.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 399.99,
+      "discount": 20,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Linksys_Velop_MX10_image.jpg"
+        }
+      ],
+      "SKU": "SKU-ROU-004"
+    },
+    {
+      "id": 14,
+      "name": "Google Nest Wifi",
+      "brand": "Google",
+      "description": "Google Nest Wifi is a smart router system that combines powerful performance with easy setup and management through the Google Home app.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 229.99,
+      "discount": 0,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Google_Nest_Wifi_image.jpg"
+        }
+      ],
+      "SKU": "SKU-ROU-005"
+    },
+    {
+      "id": 15,
+      "name": "D-Link DIR-3060",
+      "brand": "D-Link",
+      "description": "The D-Link DIR-3060 is a powerful tri-band router that offers fast speeds and extensive coverage for busy households.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 199.99,
+      "discount": 12,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "D-Link_DIR-3060_image.jpg"
+        }
+      ],
+      "SKU": "SKU-ROU-006"
+    },
+    {
+      "id": 16,
+      "name": "Synology RT2600ac",
+      "brand": "Synology",
+      "description": "The Synology RT2600ac is a versatile router that combines high performance with advanced features for home and office use.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 249.99,
+      "discount": 18,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Synology_RT2600ac_image.jpg"
+        }
+      ],
+      "SKU": "SKU-ROU-007"
+    },
+    {
+      "id": 17,
+      "name": "Netgear Orbi RBK50",
+      "brand": "Netgear",
+      "description": "The Netgear Orbi RBK50 is a mesh Wi-Fi system that delivers fast and reliable internet coverage throughout your home.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 349.99,
+      "discount": 15,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Netgear_Orbi_RBK50_image.jpg"
+        }
+      ],
+      "SKU": "SKU-ROU-008"
+    },
+    {
+      "id": 18,
+      "name": "TP-Link Deco M9 Plus",
+      "brand": "TP-Link",
+      "description": "The TP-Link Deco M9 Plus is a mesh Wi-Fi system that provides seamless coverage and smart home integration.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 299.99,
+      "discount": 10,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "TP-Link_Deco_M9_Plus_image.jpg"
+        }
+      ],
+      "SKU": "SKU-ROU-009"
+    },
+    {
+      "id": 19,
+      "name": "Asus ZenWiFi AX",
+      "brand": "Asus",
+      "description": "The Asus ZenWiFi AX is a high-performance mesh Wi-Fi system that offers fast speeds and extensive coverage for modern homes.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 329.99,
+      "discount": 14,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Asus_ZenWiFi_AX_image.jpg"
+        }
+      ],
+      "SKU": "SKU-ROU-010"
+    },
+    {
+      "id": 20,
+      "name": "Linksys WRT3200ACM",
+      "brand": "Linksys",
+      "description": "The Linksys WRT3200ACM is a high-performance router that offers advanced features and customizable options for tech enthusiasts.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 249.99,
+      "discount": 7,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Linksys_WRT3200ACM_image.jpg"
+        }
+      ],
+      "SKU": "SKU-ROU-011"
+    }
+  ],
+  "processor": [
+    {
+      "id": 21,
+      "name": "Intel Core i7-10700K",
+      "brand": "Intel",
+      "description": "The Intel Core i7-10700K is a high-performance desktop processor with 8 cores and 16 threads, designed for gaming and content creation.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 379.99,
+      "discount": 5,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Intel_Core_i7-10700K_image.jpg"
+        }
+      ],
+      "SKU": "SKU-PRO-001"
+    },
+    {
+      "id": 22,
+      "name": "AMD Ryzen 9 5900X",
+      "brand": "AMD",
+      "description": "The AMD Ryzen 9 5900X is a powerful desktop processor with 12 cores and 24 threads, ideal for gaming and professional workloads.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 549.99,
+      "discount": 10,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "AMD_Ryzen_9_5900X_image.jpg"
+        }
+      ],
+      "SKU": "SKU-PRO-002"
+    },
+    {
+      "id": 23,
+      "name": "Intel Core i5-11600K",
+      "brand": "Intel",
+      "description": "The Intel Core i5-11600K is a mid-range desktop processor with 6 cores and 12 threads, suitable for gaming and everyday tasks.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 269.99,
+      "discount": 0,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Intel_Core_i5-11600K_image.jpg"
+        }
+      ],
+      "SKU": "SKU-PRO-003"
+    },
+    {
+      "id": 24,
+      "name": "AMD Ryzen 5 5600X",
+      "brand": "AMD",
+      "description": "The AMD Ryzen 5 5600X is a budget-friendly desktop processor with 6 cores and 12 threads, perfect for gaming and general use.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 299.99,
+      "discount": 8,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "AMD_Ryzen_5_5600X_image.jpg"
+        }
+      ],
+      "SKU": "SKU-PRO-004"
+    },
+    {
+      "id": 25,
+      "name": "Intel Core i9-11900K",
+      "brand": "Intel",
+      "description": "The Intel Core i9-11900K is a flagship desktop processor with 8 cores and 16 threads, designed for high-end gaming and content creation.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 599.99,
+      "discount": 12,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Intel_Core_i9-11900K_image.jpg"
+        }
+      ],
+      "SKU": "SKU-PRO-005"
+    },
+    {
+      "id": 26,
+      "name": "AMD Ryzen 7 5800X",
+      "brand": "AMD",
+      "description": "The AMD Ryzen 7 5800X is a high-performance desktop processor with 8 cores and 16 threads, ideal for gaming and multitasking.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 449.99,
+      "discount": 7,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "AMD_Ryzen_7_5800X_image.jpg"
+        }
+      ],
+      "SKU": "SKU-PRO-006"
+    },
+    {
+      "id": 27,
+      "name": "Intel Core i3-10100",
+      "brand": "Intel",
+      "description": "The Intel Core i3-10100 is an entry-level desktop processor with 4 cores and 8 threads, suitable for basic computing tasks.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 119.99,
+      "discount": 3,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Intel_Core_i3-10100_image.jpg"
+        }
+      ],
+      "SKU": "SKU-PRO-007"
+    },
+    {
+      "id": 28,
+      "name": "AMD Ryzen 3 3300X",
+      "brand": "AMD",
+      "description": "The AMD Ryzen 3 3300X is a budget-friendly desktop processor with 4 cores and 8 threads, perfect for entry-level gaming and everyday use.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 129.99,
+      "discount": 4,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "AMD_Ryzen_3_3300X_image.jpg"
+        }
+      ],
+      "SKU": "SKU-PRO-008"
+    },
+    {
+      "id": 29,
+      "name": "Intel Core i7-11700K",
+      "brand": "Intel",
+      "description": "The Intel Core i7-11700K is a high-performance desktop processor with 8 cores and 16 threads, designed for gaming and content creation.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 399.99,
+      "discount": 6,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Intel_Core_i7-11700K_image.jpg"
+        }
+      ],
+      "SKU": "SKU-PRO-009"
+    },
+    {
+      "id": 30,
+      "name": "AMD Ryzen 9 5950X",
+      "brand": "AMD",
+      "description": "The AMD Ryzen 9 5950X is a flagship desktop processor with 16 cores and 32 threads, ideal for high-end gaming and professional workloads.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 799.99,
+      "discount": 15,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "AMD_Ryzen_9_5950X_image.jpg"
+        }
+      ],
+      "SKU": "SKU-PRO-010"
+    }
+  ],
+  "motherboard": [
+    {
+      "id": 31,
+      "name": "ASUS ROG Strix Z590-E",
+      "brand": "ASUS",
+      "description": "The ASUS ROG Strix Z590-E is a high-performance motherboard designed for Intel processors, featuring advanced cooling and connectivity options.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 379.99,
+      "discount": 10,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "ASUS_ROG_Strix_Z590-E_image.jpg"
+        }
+      ],
+      "SKU": "SKU-MOT-001"
+    },
+    {
+      "id": 32,
+      "name": "MSI MPG B550 Gaming Edge",
+      "brand": "MSI",
+      "description": "The MSI MPG B550 Gaming Edge is a feature-rich motherboard designed for AMD processors, offering robust power delivery and gaming-focused features.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 199.99,
+      "discount": 5,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "MSI_MPG_B550_Gaming_Edge_image.jpg"
+        }
+      ],
+      "SKU": "SKU-MOT-002"
+    },
+    {
+      "id": 33,
+      "name": "Gigabyte AORUS X570 Master",
+      "brand": "Gigabyte",
+      "description": "The Gigabyte AORUS X570 Master is a premium motherboard designed for AMD processors, featuring advanced thermal design and high-speed connectivity.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 359.99,
+      "discount": 8,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Gigabyte_AORUS_X570_Master_image.jpg"
+        }
+      ],
+      "SKU": "SKU-MOT-003"
+    },
+    {
+      "id": 34,
+      "name": "ASRock B460 Steel Legend",
+      "brand": "ASRock",
+      "description": "The ASRock B460 Steel Legend is a reliable motherboard designed for Intel processors, offering solid performance and durability for everyday computing.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 129.99,
+      "discount": 3,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "ASRock_B460_Steel_Legend_image.jpg"
+        }
+      ],
+      "SKU": "SKU-MOT-004"
+    },
+    {
+      "id": 35,
+      "name": "EVGA Z490 FTW",
+      "brand": "EVGA",
+      "description": "The EVGA Z490 FTW is a high-performance motherboard designed for Intel processors, featuring advanced overclocking capabilities and robust power delivery.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 299.99,
+      "discount": 12,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "EVGA_Z490_FTW_image.jpg"
+        }
+      ],
+      "SKU": "SKU-MOT-005"
+    },
+    {
+      "id": 36,
+      "name": "ASUS TUF Gaming X570-Plus",
+      "brand": "ASUS",
+      "description": "The ASUS TUF Gaming X570-Plus is a durable motherboard designed for AMD processors, offering reliable performance and gaming-focused features.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 179.99,
+      "discount": 6,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "ASUS_TUF_Gaming_X570-Plus_image.jpg"
+        }
+      ],
+      "SKU": "SKU-MOT-006"
+    },
+    {
+      "id": 37,
+      "name": "MSI Z490-A PRO",
+      "brand": "MSI",
+      "description": "The MSI Z490-A PRO is a reliable motherboard designed for Intel processors, offering solid performance and essential features for everyday computing.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 159.99,
+      "discount": 4,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "MSI_Z490-A_PRO_image.jpg"
+        }
+      ],
+      "SKU": "SKU-MOT-007"
+    },
+    {
+      "id": 38,
+      "name": "Gigabyte Z590 AORUS Elite",
+      "brand": "Gigabyte",
+      "description": "The Gigabyte Z590 AORUS Elite is a feature-rich motherboard designed for Intel processors, offering robust power delivery and gaming-focused features.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 219.99,
+      "discount": 7,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Gigabyte_Z590_AORUS_Elite_image.jpg"
+        }
+      ],
+      "SKU": "SKU-MOT-008"
+    },
+    {
+      "id": 39,
+      "name": "ASRock X570 Phantom Gaming X",
+      "brand": "ASRock",
+      "description": "The ASRock X570 Phantom Gaming X is a premium motherboard designed for AMD processors, featuring advanced thermal design and high-speed connectivity.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 329.99,
+      "discount": 9,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "ASRock_X570_Phantom_Gaming_X_image.jpg"
+        }
+      ],
+      "SKU": "SKU-MOT-009"
+    },
+    {
+      "id": 40,
+      "name": "EVGA B550 DARK",
+      "brand": "EVGA",
+      "description": "The EVGA B550 DARK is a high-performance motherboard designed for AMD processors, featuring advanced overclocking capabilities and robust power delivery.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 279.99,
+      "discount": 11,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "EVGA_B550_DARK_image.jpg"
+        }
+      ],
+      "SKU": "SKU-MOT-010"
+    }
+  ],
+  "ssd": [
+    {
+      "id": 41,
+      "name": "Samsung 970 EVO Plus",
+      "brand": "Samsung",
+      "description": "The Samsung 970 EVO Plus is a high-performance NVMe SSD that delivers fast read and write speeds for gaming and professional applications.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 149.99,
+      "discount": 10,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Samsung_970_EVO_Plus_image.jpg"
+        }
+      ],
+      "SKU": "SKU-SSD-001"
+    },
+    {
+      "id": 42,
+      "name": "Western Digital Black SN750",
+      "brand": "Western Digital",
+      "description": "The Western Digital Black SN750 is a high-speed NVMe SSD designed for gamers and professionals, offering fast performance and reliability.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 139.99,
+      "discount": 8,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Western_Digital_Black_SN750_image.jpg"
+        }
+      ],
+      "SKU": "SKU-SSD-002"
+    },
+    {
+      "id": 43,
+      "name": "Crucial MX500",
+      "brand": "Crucial",
+      "description": "The Crucial MX500 is a reliable SATA SSD that offers solid performance and durability for everyday computing tasks.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 99.99,
+      "discount": 5,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Crucial_MX500_image.jpg"
+        }
+      ],
+      "SKU": "SKU-SSD-003"
+    },
+    {
+      "id": 44,
+      "name": "Seagate FireCuda 520",
+      "brand": "Seagate",
+      "description": "The Seagate FireCuda 520 is a high-performance NVMe SSD designed for gamers and content creators, offering fast speeds and ample storage.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 159.99,
+      "discount": 12,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Seagate_FireCuda_520_image.jpg"
+        }
+      ],
+      "SKU": "SKU-SSD-004"
+    },
+    {
+      "id": 45,
+      "name": "ADATA XPG SX8200 Pro",
+      "brand": "ADATA",
+      "description": "The ADATA XPG SX8200 Pro is a high-speed NVMe SSD that delivers excellent performance for gaming and professional applications.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 129.99,
+      "discount": 7,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "ADATA_XPG_SX8200_Pro_image.jpg"
+        }
+      ],
+      "SKU": "SKU-SSD-005"
+    },
+    {
+      "id": 46,
+      "name": " Kingston A2000",
+      "brand": "Kingston",
+      "description": "The Kingston A2000 is a budget-friendly NVMe SSD that offers solid performance and reliability for everyday computing tasks.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 89.99,
+      "discount": 4,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Kingston_A2000_image.jpg"
+        }
+      ],
+      "SKU": "SKU-SSD-006"
+    },
+    {
+      "id": 47,
+      "name": "Intel 660p Series",
+      "brand": "Intel",
+      "description": "The Intel 660p Series is an affordable NVMe SSD that provides good performance and ample storage for general computing needs.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 109.99,
+      "discount": 6,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Intel_660p_Series_image.jpg"
+        }
+      ],
+      "SKU": "SKU-SSD-007"
+    },
+    {
+      "id": 48,
+      "name": "Sabrent Rocket Q",
+      "brand": "Sabrent",
+      "description": "The Sabrent Rocket Q is a high-capacity NVMe SSD that offers fast performance and reliability for gaming and professional applications.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 179.99,
+      "discount": 9,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Sabrent_Rocket_Q_image.jpg"
+        }
+      ],
+      "SKU": "SKU-SSD-008"
+    },
+    {
+        "id": 49,
+        "name": "Plextor M9Pe",
+        "brand": "Plextor",
+        "description": "The Plextor M9Pe is a high-performance NVMe SSD that delivers fast read and write speeds for gaming and professional workloads.",
+        "availability": "Out of Stock",
+        "inStock": false,
+        "price": 149.99,
+        "discount": 11,
+        "trending": false,
+        "Image": [
+            {
+            "url": "https://picsum.photos/500/300",
+            "imgName": "Plextor_M9Pe_image.jpg"
+            }
+        ],
+        "SKU": "SKU-SSD-009"
+        },
+        {
+        "id": 50,
+        "name": "Corsair MP600",
+        "brand": "Corsair",
+        "description": "The Corsair MP600 is a high-speed NVMe SSD designed for gamers and content creators, offering fast performance and durability.",
+        "availability": "In Stock",
+        "inStock": true,
+        "price": 199.99,
+        "discount": 13,
+        "trending": true,
+        "Image": [
+            {
+            "url": "https://picsum.photos/500/300",
+            "imgName": "Corsair_MP600_image.jpg"
+            }
+        ],
+        "SKU": "SKU-SSD-010"
+    }
+  ],
+  "amplifiers": [
+    {
+        "id": 51,
+        "name": "Yamaha A-S801",
+        "brand": "Yamaha",
+        "description": "The Yamaha A-S801 is a high-performance integrated amplifier that delivers powerful sound and advanced features for audiophiles.",
+        "availability": "In Stock",
+        "inStock": true,
+        "price": 899.99,
+        "discount": 10,
+        "trending": true,
+        "Image": [
+            {
+            "url": "https://picsum.photos/500/300",
+            "imgName": "Yamaha_A-S801_image.jpg"
+            }
+        ],
+        "SKU": "SKU-AMP-001"
+    },
+    {
+        "id": 52,
+        "name": "Denon PMA-1600NE",
+        "brand": "Denon",
+        "description": "The Denon PMA-1600NE is a high-quality integrated amplifier that offers exceptional sound performance and connectivity options.",
+        "availability": "Out of Stock",
+        "inStock": false,
+        "price": 1199.99,
+        "discount": 15,
+        "trending": false,
+        "Image": [
+            {
+            "url": "https://picsum.photos/500/300",
+            "imgName": "Denon_PMA-1600NE_image.jpg"
+            }
+        ],
+        "SKU": "SKU-AMP-002"
+    },
+    {
+        "id": 53,
+        "name": "Marantz PM8006",
+        "brand": "Marantz",
+        "description": "The Marantz PM8006 is a premium integrated amplifier that delivers rich sound quality and advanced features for music enthusiasts.",
+        "availability": "In Stock",
+        "inStock": true,
+        "price": 1299.99,
+        "discount": 12,
+        "trending": true,
+        "Image": [
+            {
+            "url": "https://picsum.photos/500/300",
+            "imgName": "Marantz_P8006_image.jpg"
+            }
+        ],
+        "SKU": "SKU-AMP-003"
+    },
+    {
+        "id": 54,
+        "name": "Cambridge Audio CXA81",
+        "brand": "Cambridge Audio",
+        "description": "The Cambridge Audio CXA81 is a high-performance integrated amplifier that offers exceptional sound quality and connectivity options.",
+        "availability": "In Stock",
+        "inStock": true,
+        "price": 1099.99,
+        "discount": 8,
+        "trending": false,
+        "Image": [
+            {
+            "url": "https://picsum.photos/500/300",
+            "imgName": "Cambridge_Audio_CXA81_image.jpg"
+            }
+        ],
+        "SKU": "SKU-AMP-004"
+    },
+    {
+        "id": 55,
+        "name": "NAD C 368",
+        "brand": "NAD",
+        "description": "The NAD C 368 is a versatile integrated amplifier that delivers powerful sound and advanced features for audiophiles.",
+        "availability": "Out of Stock",
+        "inStock": false,
+        "price": 799.99,
+        "discount": 5,
+        "trending": true,
+        "Image": [
+            {
+            "url": "https://picsum.photos/500/300",
+            "imgName": "NAD_C_368_image.jpg"
+            }
+        ],
+        "SKU": "SKU-AMP-005"
+    },
+    {
+        "id": 56,
+        "name": "Rotel RA-1572",
+        "brand": "Rotel",
+        "description": "The Rotel RA-1572 is a high-quality integrated amplifier that offers exceptional sound performance and connectivity options.",
+        "availability": "In Stock",
+        "inStock": true,
+        "price": 1399.99,
+        "discount": 14,
+        "trending": false,
+        "Image": [
+            {
+            "url": "https://picsum.photos/500/300",
+            "imgName": "Rotel_RA-1572_image.jpg"
+            }
+        ],
+        "SKU": "SKU-AMP-006"
+    },
+    {
+        "id": 57,
+        "name": "Harman Kardon HK 3700",
+        "brand": "Harman Kardon",
+        "description": "The Harman Kardon HK 3700 is a stylish integrated amplifier that delivers rich sound quality and advanced features for music enthusiasts.",
+        "availability": "In Stock",
+        "inStock": true,
+        "price": 699.99,
+        "discount": 7,
+        "trending": true,
+        "Image": [
+            {
+            "url": "https://picsum.photos/500/300",
+            "imgName": "Harman_Kardon_HK_3700_image.jpg"
+            }
+        ],
+        "SKU": "SKU-AMP-007"
+    },
+    {
+        "id": 58,
+        "name": "Parasound NewClassic 200 Integrated",
+        "brand": "Parasound",
+        "description": "The Parasound NewClassic 200 Integrated is a high-performance amplifier that offers exceptional sound quality and connectivity options.",
+        "availability": "Out of Stock",
+        "inStock": false,
+        "price": 899.99,
+        "discount": 11,
+        "trending": false,
+        "Image": [
+            {
+            "url": "https://picsum.photos/500/300",
+            "imgName": "Parasound_NewClassic_200_image.jpg"
+            }
+        ],
+        "SKU": "SKU-AMP-008"
+    },
+    {
+        "id": 59,
+        "name": "Bryston B135 SST2",
+        "brand": "Bryston",
+        "description": "The Bryston B135 SST2 is a high-quality integrated amplifier that delivers powerful sound and advanced features for audiophiles.",
+        "availability": "In Stock",
+        "inStock": true,
+        "price": 2499.99,
+        "discount": 20,
+        "trending": true,
+        "Image": [
+            {
+            "url": "https://picsum.photos/500/300",
+            "imgName": "Bryston_B135_SST2_image.jpg"
+            }
+        ],
+        "SKU": "SKU-AMP-009"
+    },
+    {
+        "id": 60,
+        "name": "McIntosh MA352",
+        "brand": "McIntosh",
+        "description": "The McIntosh MA352 is a premium integrated amplifier that offers exceptional sound quality and advanced features for music enthusiasts.",
+        "availability": "In Stock",
+        "inStock": true,
+        "price": 4999.99,
+        "discount": 18,
+        "trending": false,
+        "Image": [
+            {
+            "url": "https://picsum.photos/500/300",
+            "imgName": "McIntosh_MA352_image.jpg"
+            }
+        ],
+        "SKU": "SKU-AMP-010"
+    }
+  ]
+}

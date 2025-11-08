@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      class="flex flex-col items-center justify-around gap-4 p-5 bg-fuchsia-500 text-white overflow-hidden transition-all duration-500 sm:flex-row sm:gap-2 h-[68px] sm:h-fit!"
+    >
+      <div class="flex items-center justify-between w-full sm:w-fit">
+        <div
+          class="flex items-center gap-1 text-2xl font-bold cursor-pointer"
+          id="navigateToHome"
+        >
+          <i class="fa-solid fa-building"></i>
+          <h1>Business</h1>
+        </div>
+        <div class="flex sm:hidden" id="toggleHeader">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+      </div>
+      <form class="w-full sm:w-3/6 flex items-center relative">
+        <input
+          type="search"
+          name="product"
+          placeholder="Search a product"
+          class="flex-1 h-10 px-2 rounded-2xl transition-[outline-offset] hover:outline hover:outline-offset-2"
+        />
+        <input
+          type="submit"
+          value="Search"
+          class="border px-3 py-1 absolute right-1 rounded-2xl"
+        />
+      </form>
+      <nav>
+        <ul class="flex items-center gap-10">
+          <li data-page="shop">Shop</li>
+          <li data-page="profile">Profile</li>
+        </ul>
+      </nav>
+      <div>
+        <button id="openCart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+      </div>
+    </header>
+    <!-- Header -->
+
+    <!-- Main Section -->
+    <main>
+      <section id="home" class="hidden items-center justify-center h-[85vh]">
+        <h1 class="font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center ">
+          Welcome <span id="loggedUserName">User</span> to the amazing
+          wonderfullaa...
+        </h1>
+      </section>
+      <section id="shop" class="hidden flex-col">
+        <!-- Division for List and Filter and Title of product -->
+        <div
+          class="p-3 flex flex-col sm:flex-row items-center sm:justify-between w-full gap-3"
+        >
+          <select
+            class="w-40 sm:w-50 p-2 rounded bg-fuchsia-500 text-white"
+            id="category"
+          ></select>
+          <h1
+            id="titleOfProduct"
+            class="font-bold text-md sm:text-lg md:text-xl"
+          ></h1>
+          <select
+            class="w-40 sm:w-50 p-2 rounded bg-fuchsia-500 text-white"
+            id="productFilter"
+          >
+            <option value="alpha">A - Z</option>
+            <option value="lth">Low to High</option>
+            <option value="htl">High to Low</option>
+          </select>
+        </div>
+        <!-- Product displaying are -->
+        <div
+          id="displayProduct"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-3 gap-3"
+        ></div>
+      </section>
+      <section id="profile" class="hidden items-center justify-center h-[85vh]">
+        <form
+          action=""
+          id="register"
+          class="flex flex-col gap-5 w-[400px] h-auto p-4 shadow-2xl rounded"
+        >
+          <div>
+            <h1 class="text-2xl font-bold text-center my-3">Register Form</h1>
+          </div>
+          <div>
+            <input
+              type="text"
+              name="user"
+              class="w-full h-10 px-2 shadow-2xl rounded"
+              placeholder="Enter a username"
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              name="email"
+              class="w-full h-10 px-2 shadow-2xl rounded"
+              placeholder="Enter a email"
+            />
+          </div>
+          <div>
+            <input
+              type="password"
+              class="w-full h-10 px-2 shadow-2xl rounded"
+              name="pwd"
+              placeholder="*****"
+            />
+          </div>
+          <div class="flex items-center justify-around">
+            <input
+              type="submit"
+              class="border py-1 px-3 text-blue-500 hover:bg-blue-500 hover:text-white"
+              value="Register"
+            />
+            <button
+              type="button"
+              id="toLogin"
+              class="border py-1 px-3 text-lime-500 hover:bg-lime-500 hover:text-white"
+            >
+              Login →
+            </button>
+          </div>
+        </form>
+        <form
+          action=""
+          id="login"
+          class="hidden flex-col gap-5 w-[400px] h-auto p-4 shadow-2xl rounded"
+        >
+          <div>
+            <h1 class="text-2xl font-bold text-center my-3">Login Form</h1>
+          </div>
+          <div>
+            <input
+              type="email"
+              name="email"
+              class="w-full h-10 px-2 shadow-2xl rounded"
+              placeholder="Enter a email"
+            />
+          </div>
+          <div>
+            <input
+              type="password"
+              class="w-full h-10 px-2 shadow-2xl rounded"
+              name="pwd"
+              placeholder="*****"
+            />
+          </div>
+          <div class="flex items-center justify-around">
+            <input
+              type="submit"
+              class="border py-1 px-3 text-blue-500 hover:bg-blue-500 hover:text-white"
+              value="Login"
+            />
+            <button
+              type="button"
+              id="toRegister"
+              class="border py-1 px-3 text-lime-500 hover:bg-lime-500 hover:text-white"
+            >
+              ← Register
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <!-- Main Section -->
+
+    <!-- Cart -->
+    <aside
+      id="cart"
+      class="fixed top-0 -right-[200%] flex flex-col bg-white w-120 h-dvh shadow-2xl transition-[right] p-2"
+    >
+      <div class="text-end text-2xl" id="closeCart">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <table class="w-full flex-1">
+        <thead class="block">
+          <tr class="flex justify-between p-2">
+            <th>Cart</th>
+            <th id="totalPrice">Total Price: ₹170000/-</th>
+          </tr>
+        </thead>
+        <tbody class="flex flex-col h-[80vh] gap-2 p-2 overflow-y-auto"></tbody>
+      </table>
+    </aside>
+    <!-- Cart -->
+
+    <!-- Script -->
+    <script src="main.js"></script>
+  </body>
+</html>
