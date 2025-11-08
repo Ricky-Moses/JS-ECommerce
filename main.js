@@ -17,7 +17,7 @@ let isUserLogged = JSON.parse(localStorage.getItem("UserData")) || {};
 // Fetch a data from data.json (Top level block)
 async function fetchData() {
   try {
-    const res = await fetch("./asset/data.json");
+    const res = await fetch("./asset/data.json", import.meta.url);
     const data = await res.json();
     products = data;
     renderKeyValues(products); // Drop down function
