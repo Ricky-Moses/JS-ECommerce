@@ -17,12 +17,16 @@ let isUserLogged = JSON.parse(localStorage.getItem("UserData")) || {};
 // Fetch a data from data.json (Top level block)
 async function fetchData() {
   try {
-    const res = await fetch("./asset/data.json", import.meta.url);
+    const res = await fetch("./asset/data.json");
     const data = await res.json();
     products = data;
     renderKeyValues(products); // Drop down function
     const firstProduct = Object.keys(products)[0]; // Initially render first product data from JSON.
     renderProducts(products[firstProduct]); // Product data will render
+    homePageFunc(isUserLogged);
+
+    // Search function -> Two argument (Entire JSON data) & (Initial Product data)
+    searchQueryFunc(data, products[firstProduct]);
   } catch (err) {
     console.error(err);
   }
@@ -77,7 +81,7 @@ headerEl.querySelectorAll("nav ul li").forEach((li) => {
 });
 
 // Home page
-function homePageFunc(user) {
+function homePageFunc(user = "User") {
   const loggedUser = homePage.querySelector("#loggedUserName");
   if (user) {
     loggedUser.textContent =
@@ -85,7 +89,6 @@ function homePageFunc(user) {
   }
 }
 
-homePageFunc(isUserLogged);
 // Open Cart button
 const isOpenCart = headerEl.querySelector("#openCart");
 const isCloseCart = cartPage.querySelector("#closeCart");
@@ -130,8 +133,16 @@ function renderKeyValues(data) {
     option.textContent = keys.charAt(0).toUpperCase() + keys.slice(1);
     dropDownCategory.appendChild(option);
   });
+  renderTheProductName(data);
+}
 
-  let firstProductTitle = Object.keys(data)[0];
+function renderTheProductName(data) {
+  // 1. First it will render the name of the option
+  // 2. After the searchQuery filter return empty it will pass the initial product list to this function
+  // 3. Initially it return the '0'(String). I made a condition it '0' it will data from searchQuery function otherwise it will normally the select option category.
+  let firstProductTitle =
+    Object.keys(data)[0] === "0" ? data[0].type : Object.keys(data)[0];
+  console.info(firstProductTitle);
   const titleOfProduct = shopPage.querySelector("#titleOfProduct");
   titleOfProduct.textContent = firstProductTitle.toUpperCase();
 
@@ -462,11 +473,39 @@ registerBtn.addEventListener("click", () => {
 });
 
 // Register addEventListener 'submit'
-registerPage.addEventListener("submit", (e) => {
-  e.preventDefault();
-  registerFunc();
-});
-loginPage.addEventListener("submit", (e) => {
-  e.preventDefault();
-  loginFunc(user);
-});
+registerPage
+  .querySelector("input[type='button']")
+  .addEventListener("click", (e) => {
+    e.preventDefault();
+    registerFunc();
+  });
+loginPage
+  .querySelector("input[type='button']")
+  .addEventListener("click", (e) => {
+    e.preventDefault();
+    loginFunc(user);
+  });
+
+// Search query
+const searchQuery = headerEl.querySelector("form input[type='search']");
+function searchQueryFunc(data, initialProducts) {
+  const allProducts = Object.values(data).flat();
+  searchQuery.addEventListener("input", (e) => {
+    const query = e.target.value.trim().toLowerCase();
+
+    // If the input empty, show all products
+    if (query === "") {
+      renderProducts(initialProducts);
+      renderTheProductName(initialProducts);
+      console.info(initialProducts);
+      return;
+    }
+
+    // Filter matching items (Case sensitive)
+    const searchFilter = allProducts.filter((fil) => {
+      return fil.name.toLowerCase().includes(query);
+    });
+
+    renderProducts(searchFilter);
+  });
+}

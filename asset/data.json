@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Lenovo 681-Ultra",
+      "type": "Laptop",
       "brand": "Lenovo",
       "description": "Lenovo Lenovo 681-Ultra is a high-quality laptop designed for optimal performance. Features latest processor and ample storage.",
       "availability": "In Stock",
@@ -891,222 +892,222 @@
       "SKU": "SKU-SSD-008"
     },
     {
-        "id": 49,
-        "name": "Plextor M9Pe",
-        "brand": "Plextor",
-        "description": "The Plextor M9Pe is a high-performance NVMe SSD that delivers fast read and write speeds for gaming and professional workloads.",
-        "availability": "Out of Stock",
-        "inStock": false,
-        "price": 149.99,
-        "discount": 11,
-        "trending": false,
-        "Image": [
-            {
-            "url": "https://picsum.photos/500/300",
-            "imgName": "Plextor_M9Pe_image.jpg"
-            }
-        ],
-        "SKU": "SKU-SSD-009"
-        },
+      "id": 49,
+      "name": "Plextor M9Pe",
+      "brand": "Plextor",
+      "description": "The Plextor M9Pe is a high-performance NVMe SSD that delivers fast read and write speeds for gaming and professional workloads.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 149.99,
+      "discount": 11,
+      "trending": false,
+      "Image": [
         {
-        "id": 50,
-        "name": "Corsair MP600",
-        "brand": "Corsair",
-        "description": "The Corsair MP600 is a high-speed NVMe SSD designed for gamers and content creators, offering fast performance and durability.",
-        "availability": "In Stock",
-        "inStock": true,
-        "price": 199.99,
-        "discount": 13,
-        "trending": true,
-        "Image": [
-            {
-            "url": "https://picsum.photos/500/300",
-            "imgName": "Corsair_MP600_image.jpg"
-            }
-        ],
-        "SKU": "SKU-SSD-010"
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Plextor_M9Pe_image.jpg"
+        }
+      ],
+      "SKU": "SKU-SSD-009"
+    },
+    {
+      "id": 50,
+      "name": "Corsair MP600",
+      "brand": "Corsair",
+      "description": "The Corsair MP600 is a high-speed NVMe SSD designed for gamers and content creators, offering fast performance and durability.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 199.99,
+      "discount": 13,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Corsair_MP600_image.jpg"
+        }
+      ],
+      "SKU": "SKU-SSD-010"
     }
   ],
   "amplifiers": [
     {
-        "id": 51,
-        "name": "Yamaha A-S801",
-        "brand": "Yamaha",
-        "description": "The Yamaha A-S801 is a high-performance integrated amplifier that delivers powerful sound and advanced features for audiophiles.",
-        "availability": "In Stock",
-        "inStock": true,
-        "price": 899.99,
-        "discount": 10,
-        "trending": true,
-        "Image": [
-            {
-            "url": "https://picsum.photos/500/300",
-            "imgName": "Yamaha_A-S801_image.jpg"
-            }
-        ],
-        "SKU": "SKU-AMP-001"
+      "id": 51,
+      "name": "Yamaha A-S801",
+      "brand": "Yamaha",
+      "description": "The Yamaha A-S801 is a high-performance integrated amplifier that delivers powerful sound and advanced features for audiophiles.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 899.99,
+      "discount": 10,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Yamaha_A-S801_image.jpg"
+        }
+      ],
+      "SKU": "SKU-AMP-001"
     },
     {
-        "id": 52,
-        "name": "Denon PMA-1600NE",
-        "brand": "Denon",
-        "description": "The Denon PMA-1600NE is a high-quality integrated amplifier that offers exceptional sound performance and connectivity options.",
-        "availability": "Out of Stock",
-        "inStock": false,
-        "price": 1199.99,
-        "discount": 15,
-        "trending": false,
-        "Image": [
-            {
-            "url": "https://picsum.photos/500/300",
-            "imgName": "Denon_PMA-1600NE_image.jpg"
-            }
-        ],
-        "SKU": "SKU-AMP-002"
+      "id": 52,
+      "name": "Denon PMA-1600NE",
+      "brand": "Denon",
+      "description": "The Denon PMA-1600NE is a high-quality integrated amplifier that offers exceptional sound performance and connectivity options.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 1199.99,
+      "discount": 15,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Denon_PMA-1600NE_image.jpg"
+        }
+      ],
+      "SKU": "SKU-AMP-002"
     },
     {
-        "id": 53,
-        "name": "Marantz PM8006",
-        "brand": "Marantz",
-        "description": "The Marantz PM8006 is a premium integrated amplifier that delivers rich sound quality and advanced features for music enthusiasts.",
-        "availability": "In Stock",
-        "inStock": true,
-        "price": 1299.99,
-        "discount": 12,
-        "trending": true,
-        "Image": [
-            {
-            "url": "https://picsum.photos/500/300",
-            "imgName": "Marantz_P8006_image.jpg"
-            }
-        ],
-        "SKU": "SKU-AMP-003"
+      "id": 53,
+      "name": "Marantz PM8006",
+      "brand": "Marantz",
+      "description": "The Marantz PM8006 is a premium integrated amplifier that delivers rich sound quality and advanced features for music enthusiasts.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 1299.99,
+      "discount": 12,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Marantz_P8006_image.jpg"
+        }
+      ],
+      "SKU": "SKU-AMP-003"
     },
     {
-        "id": 54,
-        "name": "Cambridge Audio CXA81",
-        "brand": "Cambridge Audio",
-        "description": "The Cambridge Audio CXA81 is a high-performance integrated amplifier that offers exceptional sound quality and connectivity options.",
-        "availability": "In Stock",
-        "inStock": true,
-        "price": 1099.99,
-        "discount": 8,
-        "trending": false,
-        "Image": [
-            {
-            "url": "https://picsum.photos/500/300",
-            "imgName": "Cambridge_Audio_CXA81_image.jpg"
-            }
-        ],
-        "SKU": "SKU-AMP-004"
+      "id": 54,
+      "name": "Cambridge Audio CXA81",
+      "brand": "Cambridge Audio",
+      "description": "The Cambridge Audio CXA81 is a high-performance integrated amplifier that offers exceptional sound quality and connectivity options.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 1099.99,
+      "discount": 8,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Cambridge_Audio_CXA81_image.jpg"
+        }
+      ],
+      "SKU": "SKU-AMP-004"
     },
     {
-        "id": 55,
-        "name": "NAD C 368",
-        "brand": "NAD",
-        "description": "The NAD C 368 is a versatile integrated amplifier that delivers powerful sound and advanced features for audiophiles.",
-        "availability": "Out of Stock",
-        "inStock": false,
-        "price": 799.99,
-        "discount": 5,
-        "trending": true,
-        "Image": [
-            {
-            "url": "https://picsum.photos/500/300",
-            "imgName": "NAD_C_368_image.jpg"
-            }
-        ],
-        "SKU": "SKU-AMP-005"
+      "id": 55,
+      "name": "NAD C 368",
+      "brand": "NAD",
+      "description": "The NAD C 368 is a versatile integrated amplifier that delivers powerful sound and advanced features for audiophiles.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 799.99,
+      "discount": 5,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "NAD_C_368_image.jpg"
+        }
+      ],
+      "SKU": "SKU-AMP-005"
     },
     {
-        "id": 56,
-        "name": "Rotel RA-1572",
-        "brand": "Rotel",
-        "description": "The Rotel RA-1572 is a high-quality integrated amplifier that offers exceptional sound performance and connectivity options.",
-        "availability": "In Stock",
-        "inStock": true,
-        "price": 1399.99,
-        "discount": 14,
-        "trending": false,
-        "Image": [
-            {
-            "url": "https://picsum.photos/500/300",
-            "imgName": "Rotel_RA-1572_image.jpg"
-            }
-        ],
-        "SKU": "SKU-AMP-006"
+      "id": 56,
+      "name": "Rotel RA-1572",
+      "brand": "Rotel",
+      "description": "The Rotel RA-1572 is a high-quality integrated amplifier that offers exceptional sound performance and connectivity options.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 1399.99,
+      "discount": 14,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Rotel_RA-1572_image.jpg"
+        }
+      ],
+      "SKU": "SKU-AMP-006"
     },
     {
-        "id": 57,
-        "name": "Harman Kardon HK 3700",
-        "brand": "Harman Kardon",
-        "description": "The Harman Kardon HK 3700 is a stylish integrated amplifier that delivers rich sound quality and advanced features for music enthusiasts.",
-        "availability": "In Stock",
-        "inStock": true,
-        "price": 699.99,
-        "discount": 7,
-        "trending": true,
-        "Image": [
-            {
-            "url": "https://picsum.photos/500/300",
-            "imgName": "Harman_Kardon_HK_3700_image.jpg"
-            }
-        ],
-        "SKU": "SKU-AMP-007"
+      "id": 57,
+      "name": "Harman Kardon HK 3700",
+      "brand": "Harman Kardon",
+      "description": "The Harman Kardon HK 3700 is a stylish integrated amplifier that delivers rich sound quality and advanced features for music enthusiasts.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 699.99,
+      "discount": 7,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Harman_Kardon_HK_3700_image.jpg"
+        }
+      ],
+      "SKU": "SKU-AMP-007"
     },
     {
-        "id": 58,
-        "name": "Parasound NewClassic 200 Integrated",
-        "brand": "Parasound",
-        "description": "The Parasound NewClassic 200 Integrated is a high-performance amplifier that offers exceptional sound quality and connectivity options.",
-        "availability": "Out of Stock",
-        "inStock": false,
-        "price": 899.99,
-        "discount": 11,
-        "trending": false,
-        "Image": [
-            {
-            "url": "https://picsum.photos/500/300",
-            "imgName": "Parasound_NewClassic_200_image.jpg"
-            }
-        ],
-        "SKU": "SKU-AMP-008"
+      "id": 58,
+      "name": "Parasound NewClassic 200 Integrated",
+      "brand": "Parasound",
+      "description": "The Parasound NewClassic 200 Integrated is a high-performance amplifier that offers exceptional sound quality and connectivity options.",
+      "availability": "Out of Stock",
+      "inStock": false,
+      "price": 899.99,
+      "discount": 11,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Parasound_NewClassic_200_image.jpg"
+        }
+      ],
+      "SKU": "SKU-AMP-008"
     },
     {
-        "id": 59,
-        "name": "Bryston B135 SST2",
-        "brand": "Bryston",
-        "description": "The Bryston B135 SST2 is a high-quality integrated amplifier that delivers powerful sound and advanced features for audiophiles.",
-        "availability": "In Stock",
-        "inStock": true,
-        "price": 2499.99,
-        "discount": 20,
-        "trending": true,
-        "Image": [
-            {
-            "url": "https://picsum.photos/500/300",
-            "imgName": "Bryston_B135_SST2_image.jpg"
-            }
-        ],
-        "SKU": "SKU-AMP-009"
+      "id": 59,
+      "name": "Bryston B135 SST2",
+      "brand": "Bryston",
+      "description": "The Bryston B135 SST2 is a high-quality integrated amplifier that delivers powerful sound and advanced features for audiophiles.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 2499.99,
+      "discount": 20,
+      "trending": true,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "Bryston_B135_SST2_image.jpg"
+        }
+      ],
+      "SKU": "SKU-AMP-009"
     },
     {
-        "id": 60,
-        "name": "McIntosh MA352",
-        "brand": "McIntosh",
-        "description": "The McIntosh MA352 is a premium integrated amplifier that offers exceptional sound quality and advanced features for music enthusiasts.",
-        "availability": "In Stock",
-        "inStock": true,
-        "price": 4999.99,
-        "discount": 18,
-        "trending": false,
-        "Image": [
-            {
-            "url": "https://picsum.photos/500/300",
-            "imgName": "McIntosh_MA352_image.jpg"
-            }
-        ],
-        "SKU": "SKU-AMP-010"
+      "id": 60,
+      "name": "McIntosh MA352",
+      "brand": "McIntosh",
+      "description": "The McIntosh MA352 is a premium integrated amplifier that offers exceptional sound quality and advanced features for music enthusiasts.",
+      "availability": "In Stock",
+      "inStock": true,
+      "price": 4999.99,
+      "discount": 18,
+      "trending": false,
+      "Image": [
+        {
+          "url": "https://picsum.photos/500/300",
+          "imgName": "McIntosh_MA352_image.jpg"
+        }
+      ],
+      "SKU": "SKU-AMP-010"
     }
   ]
 }
