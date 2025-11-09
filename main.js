@@ -56,7 +56,7 @@ function showPages(pageId = "home") {
   });
 }
 
-showPages("shop"); // Initially call the function show HOME Page.
+showPages("home"); // Initially call the function show HOME Page.
 
 // Home page
 const homePage = mainEl.querySelector("#home");
