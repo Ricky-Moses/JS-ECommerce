@@ -56,7 +56,7 @@ function showPages(pageId = "home") {
   });
 }
 
-showPages("home"); // Initially call the function show HOME Page.
+showPages("shop"); // Initially call the function show HOME Page.
 
 // Home page
 const homePage = mainEl.querySelector("#home");
@@ -64,6 +64,8 @@ const homePage = mainEl.querySelector("#home");
 const shopPage = mainEl.querySelector("#shop");
 // Profile page
 const profilePage = mainEl.querySelector("#profile");
+// View Page
+const viewPage = mainEl.querySelector("#view");
 
 // Navigate to HOME function
 headerEl.querySelector("#navigateToHome").addEventListener("click", () => {
@@ -95,7 +97,7 @@ const isCloseCart = cartPage.querySelector("#closeCart");
 
 function toggleCart(isOpen) {
   cartPage.classList.toggle("right-0", isOpen);
-  cartPage.classList.toggle("-right-[200%]", !isOpen);
+  cartPage.classList.toggle("-right-[300%]", !isOpen);
   /*
     Click -> isOpenCart return true in toggle [right-0], but in [-right-1/2] return false because of NOT Operator.
 
@@ -142,7 +144,7 @@ function renderTheProductName(data) {
   // 3. Initially it return the '0'(String). I made a condition it '0' it will data from searchQuery function otherwise it will normally the select option category.
   let firstProductTitle =
     Object.keys(data)[0] === "0" ? data[0].type : Object.keys(data)[0];
-  console.info(firstProductTitle);
+  // console.info(firstProductTitle);
   const titleOfProduct = shopPage.querySelector("#titleOfProduct");
   titleOfProduct.textContent = firstProductTitle.toUpperCase();
 
@@ -221,7 +223,9 @@ function renderProducts(data) {
                                 <td class="p-2"><button id="addToCart" class="outline w-full rounded-2xl py-1 text-lime-500 hover:bg-lime-500 hover:text-white" data-item="${encodeURIComponent(
                                   JSON.stringify(product)
                                 )}">Add</button></td>
-                                <td class="p-2"><button class="outline w-full rounded-2xl py-1 text-slate-500-500 hover:bg-slate-500 hover:text-white">View</button></td>
+                                <td class="p-2"><button id="viewProduct" class="outline w-full rounded-2xl py-1 text-slate-500-500 hover:bg-slate-500 hover:text-white" data-view="${encodeURIComponent(
+                                  JSON.stringify(product)
+                                )}">View</button></td>
                             </tr>
                         </tbody>
                     </table>
@@ -234,6 +238,7 @@ function renderProducts(data) {
     }
   `;
 
+  // Add to cart
   const addToCart = renderToDisplayProduct.querySelectorAll("#addToCart");
 
   addToCart.forEach((addBtn) => {
@@ -252,7 +257,73 @@ function renderProducts(data) {
     });
   });
 
+  // View the product
+  const viewProductBtn =
+    renderToDisplayProduct.querySelectorAll("#viewProduct");
+
+  viewProductBtn.forEach((view) => {
+    view.addEventListener("click", () => {
+      const item = JSON.parse(decodeURIComponent(view.dataset.view));
+
+      showPages("view");
+      renderTheSingleProduct(item);
+    });
+  });
+
   productFilterFunc(data);
+}
+
+function renderTheSingleProduct(singleItem) {
+  console.info(singleItem);
+  viewPage.innerHTML = `
+    <figure class="flex flex-col gap-2 w-[600px]">
+      <div>
+        <img loading="lazy" src="${singleItem.Image[0].url}?random=${
+    singleItem.id
+  }" alt="${singleItem.Image[0].imgName}" />
+      </div>
+      <figcaption>
+        <table class="w-full">
+          <tbody>
+            <tr>
+              <th class="text-start p-1">Name:</th>
+              <td class="text-start p-1">${singleItem.name}</td>
+            </tr>
+            <tr>
+              <th class="text-start p-1">Brand:</th>
+              <td class="text-start p-1">${singleItem.brand}</td>
+            </tr>
+            <tr>
+              <th class="text-start p-1">Price:</th>
+              <td class="text-start p-1">₹ ${(singleItem.price * 87).toFixed(
+                2
+              )}</td>
+            </tr>
+            <tr>
+              <th class="text-start p-1">Stock:</th>
+              <td class="text-start p-1">
+                <p style="color: ${singleItem.inStock ? "palegreen" : "red"}">${
+    singleItem.availability
+  }</p>
+              </td>
+            </tr>
+            <tr>
+              <th class="text-start p-1 flex items-start">Description:</th>
+              <td class="text-start p-1">${singleItem.description}</td>
+            </tr>
+            <tr>
+              <th class="text-start p-1">SKU:</th>
+              <td class="text-start p-1">${singleItem.SKU}</td>
+            </tr>
+            <tr>
+              <th class="text-start p-1">Discount:</th>
+              <td class="text-start p-1">${singleItem.discount}</td>
+            </tr>
+          </tbody>
+        </table>
+      </figcaption>
+    </figure>
+  `;
 }
 
 // Body that will render the cart items
@@ -430,7 +501,7 @@ function registerFunc() {
 function loginFunc(user) {
   const loginForm = new FormData(loginPage);
   const loginObj = Object.fromEntries(loginForm.entries());
-  if (user.email.trim() !== "" && user.pwd.trim() !== "") {
+  if (loginObj.email && loginObj.pwd) {
     if (loginObj.email === user.email && loginObj.pwd === user.pwd) {
       isUserLogged.name = user.user;
       localStorage.setItem("UserData", JSON.stringify(isUserLogged));
@@ -487,7 +558,7 @@ loginPage
   });
 
 // Search query
-const searchQuery = headerEl.querySelector("form input[type='search']");
+const searchQuery = headerEl.querySelector("input[type='text']");
 function searchQueryFunc(data, initialProducts) {
   const allProducts = Object.values(data).flat();
   searchQuery.addEventListener("input", (e) => {
@@ -497,15 +568,19 @@ function searchQueryFunc(data, initialProducts) {
     if (query === "") {
       renderProducts(initialProducts);
       renderTheProductName(initialProducts);
-      console.info(initialProducts);
+      // console.info(initialProducts);
       return;
     }
 
     // Filter matching items (Case sensitive)
     const searchFilter = allProducts.filter((fil) => {
-      return fil.name.toLowerCase().includes(query);
+      return (
+        fil.name.toLowerCase().includes(query) ||
+        fil.brand.toLowerCase().includes(query)
+      );
     });
 
     renderProducts(searchFilter);
+    showPages("shop");
   });
 }
